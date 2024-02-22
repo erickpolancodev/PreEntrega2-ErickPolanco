@@ -39,7 +39,7 @@ export const ItemDetail = ({ item }) => {
                         <button className="bg-gray-500 text-white px-4 py-2 rounded" onClick={reset}>
                             Reset
                         </button>
-                        <button className="bg-indigo-500 text-white px-4 py-2 rounded" onClick={handleAddToCart}>
+                        <button className="btn-azul text-white px-4 py-2 rounded" onClick={handleAddToCart}>
                             Agregar al carrito
                         </button>
                     </div>

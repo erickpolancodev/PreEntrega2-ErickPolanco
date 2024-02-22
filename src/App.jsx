@@ -19,7 +19,7 @@ export const App = () =>{
         <Routes>
             <Route path='/' element={<ItemListContainer />}/>
             <Route path='/category/:cid' element={<ItemListContainer/>} />
-            <Route path='/product/:pid' element={<ItemDetailsContainer/>} />
+            <Route path='/item/:pid' element={<ItemDetailsContainer/>} />
             <Route path='/cart' element={<Cart />}/>
             <Route path='/checkout' element={<Checkout />}/>
             <Route path='*' element={<NotFound/>} />

@@ -22,7 +22,7 @@ export const ItemListContainer = ({greeting}) =>{
     },[cid])
 
     return (
-        <div className="container grid grid-flow-row mx-auto my-5">
+        <div className="container grid grid-flow-row mx-auto my-5 px-4">
             <ItemList products={products} />
         </div>
     )

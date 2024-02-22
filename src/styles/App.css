@@ -3,5 +3,22 @@ body{
 }
 
 .hero{
-    height: 150px;
+    height: 100px;
+    background-color: #f9f9f9;
+}
+
+.footer-brand{
+    background-color: #f9f9f9;
+}
+.copyright{
+    background-color: #050557;
+}
+
+
+.title-prod{
+    color: #050557;
+}
+
+.btn-azul{
+    background-color: #050557;
 }
